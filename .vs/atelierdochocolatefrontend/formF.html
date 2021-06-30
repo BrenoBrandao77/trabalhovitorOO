@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastrar Funcionário</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/for.css">
+
+</head>
+
+<body>
+<header class="cabecalho">
+    <div id="menu">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="pesquisar.php">Pesquisar</a></li>
+                <li><a href="index.php">Login</a></li>
+                <li><a href="#">Cadastro</a>                    <ul>
+                    <li><a href="formcliente.php">Cliente</a></li>
+                    <li><a href="pesquisar.php">Pesquisar</a></li>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+</header>
+<div class="container-login100">
+    <div class="wrap-login100">
+      <span class="login100-form-title">
+        Cadastrar Funcionário
+      </span>
+        <form name="form" method="post" action="cadastrof.php">
+            <legend><strong>Dados do Funcionário</strong></legend>
+            Nome
+            <input type="text" name="nome" id="nome" size="100" maxlength="100" autofocus required placeholder="nome" />
+            RG
+            <input type="text" name="rg" id="rg" size="25" required placeholder="RG" />
+            CPF
+            <input type="text" name="cpf" id="cpf" size="14" maxlength="14" required placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}" />
+            Telefone
+            <input type="tel" name="telefone" id="telefone" label="Telefone" maxlength="12" placeholder="Telefone" pattern="\(\d{2}\)\)\s\d{4}\-\d{4}" />
+            E-Mail
+            <input type="email" name="email" id="email" placeholder="E-mail" />
+            Endereço
+            <input type="text" name="endereco" id="endereco" label="Endereço" maxlength="120">
+            Data de Nascimento
+            <input type="date" name="dataNascimento" id="dataNascimento" label="DataNascimento">
+            <input type="reset" value="Limpar">
+            <button type="button" name="cadastrar" onclick="submit()">Cadastrar </button>
+
+
+        </form>
+    </div>
+</div>
+</div>
+
+<footer class="rodape">
+    Atelie do Chocolate © 2021
+</footer>
+
+</body>
+
+</html>

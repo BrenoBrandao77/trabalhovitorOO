@@ -1,0 +1,78 @@
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #042447;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    
+}
+
+#menu ul{
+    margin: 0; 
+        
+    list-style: none;
+   }
+   #menu ul li{
+       display: inline;
+
+   }
+   #menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none; 
+    font-size: 19px;
+
+   }
+   #menu ul li a:hover{
+       color: rgb(34, 166, 179);
+       font-size: 18px;
+       font-weight: bold;
+   }
+
+   .rodape {
+    grid-area: rodape;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    background-color: #120369;
+    color: white;
+}
+
+/* menu com sub menu*/
+.menu ul{
+	padding: 0px;
+}
+
+.menu ul ul{
+	display: none;
+}
+
+.menu ul li:hover > ul{
+	display:block;
+}
+
+.menu ul ul ul{
+	margin-left: 201px;
+	top: 0px;
+	position: absolute;
+}
+
+.menu ul li{
+	
+	float: left;
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	
+}
+

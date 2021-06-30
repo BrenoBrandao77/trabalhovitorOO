@@ -1,0 +1,223 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-image: url(imagens/Background\ secundario.jpg);
+    background-size: 100%;
+}
+a{
+    width: 60px;
+    z-index: 1;
+}
+#h2-1{
+    position: absolute;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: bisque;
+    margin-left: 20%;
+    margin-top: 55%;
+    font-size: 5vw;
+    width: 60%;
+    height: auto;
+}
+#h2-2{
+    position: absolute;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: azure;
+    margin-left: 10%;
+    margin-top: 125%;
+    font-size: 8vw;
+    width: 80%;
+    height: auto;
+}
+#h3-1{
+    position: absolute;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: azure;
+    margin-left: 10%;
+    margin-top: 265%;
+    font-size: 8vw;
+    width: 80%;
+    height: auto;
+}
+#titulo{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: azure;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 29%;
+    font-size: 8vw;
+    width: 60%;
+    height: auto;
+}
+#zapzap{
+    position: fixed;
+    top: 90%;
+    right: 10px;
+    width: 50px;
+    z-index: 2;
+}
+#numero{
+    position: fixed;
+    top: 87%;
+    right: 70px;
+    width: 100px;
+    padding: 5px;
+    background-color: aliceblue;
+    z-index: 1;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.431);
+    display: none;
+    
+}
+
+
+#background>img#back1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+#logo>img{
+    position: absolute;
+    left: 34%;
+    width: 30%;
+}
+
+
+
+
+#doces>img{
+    position: absolute;
+    width: 18%;
+    margin-top: 78%;
+}
+#doces>img#doces1{
+    margin-left: 9%;
+}
+#doces>img#doces2{
+    margin-left: 39%;
+}
+#doces>img#doces3{
+    margin-left: 69%;
+}
+#doces1>img{
+    position: absolute;
+    width: 18%;
+    margin-top: 153%;
+}
+#doces1>img#doces1{
+    margin-left: 9%;
+}
+#doces1>img#doces2{
+    margin-left: 39%;
+}
+#doces1>img#doces3{
+    margin-left: 69%;
+}
+#doces2>img{
+    position: absolute;
+    width: 18%;
+    margin-top: 193%;
+}
+#doces2>img#doces1{
+    margin-left: 9%;
+}
+#doces2>img#doces2{
+    margin-left: 39%;
+}
+#doces2>img#doces3{
+    margin-left: 69%;
+}
+#doces3>img{
+    position: absolute;
+    width: 18%;
+    margin-top: 233%;
+}
+#doces3>img#doces1{
+    margin-left: 9%;
+}
+#doces3>img#doces2{
+    margin-left: 39%;
+}
+#doces3>img#doces3{
+    margin-left: 69%;
+}
+
+
+#preços>p{
+    position: absolute;
+    width: 30%;
+    margin-top: 96%;
+    font-family: 'Pacifico', cursive;
+    color: khaki;
+    font-size: 4vw;
+}
+#preços>p#preço1{
+    margin-left: 6%;
+}
+#preços>p#preço2{
+    margin-left: 37%;
+}
+#preços>p#preço3{
+    margin-left: 68%;
+}
+#preços1>p{
+    position: absolute;
+    width: 30%;
+    margin-top: 170%;
+    font-family: 'Pacifico', cursive;
+    color: khaki;
+    font-size: 5vw;
+    
+}
+#preços1>p#preço1{
+    margin-left: 6%;
+}
+#preços1>p#preço2{
+    margin-left: 37%;
+}
+#preços1>p#preço3{
+    margin-left: 68%;
+}
+#preços2>p{
+    position: absolute;
+    width: 30%;
+    margin-top: 210%;
+    font-family: 'Pacifico', cursive;
+    color: khaki;
+    font-size: 5vw;
+}
+#preços2>p#preço1{
+    margin-left: 6%;
+}
+#preços2>p#preço2{
+    margin-left: 37%;
+}
+#preços2>p#preço3{
+    margin-left: 68%;
+}
+#preços3>p{
+    position: absolute;
+    width: 30%;
+    margin-top: 250%;
+    font-family: 'Pacifico', cursive;
+    color: khaki;
+    font-size: 5vw;
+}
+#preços3>p#preço1{
+    margin-left: 6%;
+}
+#preços3>p#preço2{
+    margin-left: 37%;
+}
+#preços3>p#preço3{
+    margin-left: 68%;
+}
+
+
